@@ -20,7 +20,7 @@
 
 // 天气的View
 #import "WeatherView.h"
-
+#import "MaxTempView.h"
 
 
 
@@ -36,7 +36,14 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     self.view.backgroundColor = [UIColor grayColor];
-    
+   
+    MaxTempView *view = [[MaxTempView alloc] initWithFrame:CGRectMake(100, 100, 200, 200)];
+    view.backgroundColor = [UIColor orangeColor];
+    [self.view addSubview:view];
+    view.maxTemp = 10;
+    view.minTemp = -10;
+    [view buildView];
+    [view show];
     
    
     

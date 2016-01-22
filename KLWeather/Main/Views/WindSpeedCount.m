@@ -1,15 +1,17 @@
 //
-//  HumidityCount.m
-//  KLWeather
+//  WindSpeedCount.m
+//  YoCelsius
 //
-//  Created by bcmac3 on 16/1/22.
-//  Copyright © 2016年 KellenYangs. All rights reserved.
+//  Created by XianMingYou on 15/2/19.
+//
+//  https://github.com/YouXianMing
+//  http://www.cnblogs.com/YouXianMing/
 //
 
-#import "HumidityCount.h"
+#import "WindSpeedCount.h"
 #import "NSString+RichText.h"
 
-@implementation HumidityCount
+@implementation WindSpeedCount
 
 - (void)startAnimation {
     // 初始化值
@@ -41,32 +43,37 @@
         // 添加动画
         [self pop_addAnimation:self.countAnimation forKey:nil];
     }
-
 }
 
 // 处理富文本
 - (NSAttributedString *)accessNumber:(NSNumber *)number {
     
-    NSInteger count    = [number integerValue];
+    CGFloat count    = [number floatValue];
     
-    NSString *countStr = [NSString stringWithFormat:@"%02ld", (long)count];
-    NSString *totalStr = [NSString stringWithFormat:@"%@%%", countStr];
+    NSString *countStr = [NSString stringWithFormat:@"%.2f", count];
+    NSString *totalStr = [NSString stringWithFormat:@"%@ mps", countStr];
     
-    UIFont *font1       = [UIFont fontWithName:LATO_LIGHT size:40.f];
-    UIFont *font2       = [UIFont fontWithName:LATO_LIGHT size:19.f];
+    UIFont *font1       = [UIFont fontWithName:LATO_REGULAR size:12.f];
+    UIFont *font2       = [UIFont fontWithName:LATO_BOLD size:10.f];
     
     NSRange totalRange   = [totalStr range];              // 全局的区域
     NSRange countRange   = [countStr rangeFrom:totalStr]; // %的区域
     
-    return [totalStr createAttributedStringAndConfig: \
-            @[
-              // 全局设置
-              [ConfigAttributedString font:font2 range:totalRange],
-              [ConfigAttributedString font:font1 range:countRange],
-              // 局部设置
-              [ConfigAttributedString foregroundColor:COLOR_CIRCLE_ range:totalRange],
-              [ConfigAttributedString foregroundColor:[UIColor blackColor] range:countRange],
-              ]];
+    return [totalStr createAttributedStringAndConfig:@[
+                                                       // 全局设置
+                                                       [ConfigAttributedString font:font2
+                                                                              range:totalRange],
+                                                       [ConfigAttributedString font:font1
+                                                                              range:countRange],
+                                                       [ConfigAttributedString foregroundColor:COLOR_CIRCLE_ range:totalRange],
+
+                                                       
+                                                       // 局部设置
+                                                       [ConfigAttributedString foregroundColor:[UIColor blackColor]
+                                                                                         range:countRange],
+                                                       
+                                                       ]];
 }
+
 
 @end

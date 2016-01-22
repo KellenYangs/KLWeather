@@ -1,15 +1,17 @@
 //
-//  HumidityCount.m
-//  KLWeather
+//  TemperatureCount.m
+//  YoCelsius
 //
-//  Created by bcmac3 on 16/1/22.
-//  Copyright © 2016年 KellenYangs. All rights reserved.
+//  Created by XianMingYou on 15/2/22.
+//
+//  https://github.com/YouXianMing
+//  http://www.cnblogs.com/YouXianMing/
 //
 
-#import "HumidityCount.h"
+#import "TemperatureCount.h"
 #import "NSString+RichText.h"
 
-@implementation HumidityCount
+@implementation TemperatureCount
 
 - (void)startAnimation {
     // 初始化值
@@ -41,7 +43,6 @@
         // 添加动画
         [self pop_addAnimation:self.countAnimation forKey:nil];
     }
-
 }
 
 // 处理富文本
@@ -49,24 +50,46 @@
     
     NSInteger count    = [number integerValue];
     
-    NSString *countStr = [NSString stringWithFormat:@"%02ld", (long)count];
-    NSString *totalStr = [NSString stringWithFormat:@"%@%%", countStr];
+    NSString *countStr = [NSString stringWithFormat:@"%ld", (long)count];
+    NSString *duStr    = @"°";
+    NSString *totalStr = [NSString stringWithFormat:@"%@%@", countStr, duStr];
     
-    UIFont *font1       = [UIFont fontWithName:LATO_LIGHT size:40.f];
-    UIFont *font2       = [UIFont fontWithName:LATO_LIGHT size:19.f];
+
+    UIFont *totalFont = nil;
+    UIFont *duFont    = nil;
+    if (iPhone4_4s || iPhone5_5s) {
+        totalFont       = [UIFont fontWithName:LATO_THIN size:75.f];
+        duFont          = [UIFont fontWithName:LATO_THIN size:75.f];
+    } else if (iPhone6) {
+        totalFont       = [UIFont fontWithName:LATO_THIN size:90];
+        duFont          = [UIFont fontWithName:LATO_THIN size:90];
+    } else if (iPhone6_plus) {
+        totalFont       = [UIFont fontWithName:LATO_THIN size:95.f];
+        duFont          = [UIFont fontWithName:LATO_THIN size:95.f];
+    } else {
+        totalFont       = [UIFont fontWithName:LATO_THIN size:75.f];
+        duFont          = [UIFont fontWithName:LATO_THIN size:75.f];
+    }
     
     NSRange totalRange   = [totalStr range];              // 全局的区域
     NSRange countRange   = [countStr rangeFrom:totalStr]; // %的区域
+    NSRange duRange      = [duStr    rangeFrom:totalStr]; // °
     
-    return [totalStr createAttributedStringAndConfig: \
+    return [totalStr createAttributedStringAndConfig:
             @[
               // 全局设置
-              [ConfigAttributedString font:font2 range:totalRange],
-              [ConfigAttributedString font:font1 range:countRange],
+              [ConfigAttributedString font:totalFont
+                                     range:countRange],
+              
+              // °数
+              [ConfigAttributedString font:duFont
+                                     range:duRange],
+              
               // 局部设置
-              [ConfigAttributedString foregroundColor:COLOR_CIRCLE_ range:totalRange],
-              [ConfigAttributedString foregroundColor:[UIColor blackColor] range:countRange],
+              [ConfigAttributedString foregroundColor:COLOR_PURE_
+                                                range:totalRange],
               ]];
 }
+
 
 @end

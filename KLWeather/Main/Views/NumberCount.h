@@ -25,7 +25,7 @@
  *  @param numberCount 对象自己
  *  @param string      子类返回的富文本
  */
-- (void)numberCount:(NumberCount *)numberCount currentString:(NSAttributedString *)string;
+- (void)numberCount:(NumberCount *)numberCount currentSting:(NSAttributedString *)string;
 
 @end
 
