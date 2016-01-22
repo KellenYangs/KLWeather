@@ -8,7 +8,25 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
+// 定位
+#import "MapManager.h"
+
+// model数据
+#import "CurrentWeatherData.h"
+#import "CurrentConditions.h"
+
+// 获取网络数据
+#import "GetWeatherData.h"
+
+// 天气的View
+#import "WeatherView.h"
+
+
+
+
+#define RADIAN(degress) ((M_PI * (degress)) / 180.f)
+
+@interface ViewController () <MapManagerLocationDelegate, UITableViewDelegate, GetWeatherDataDelegate>
 
 @end
 
@@ -17,11 +35,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor grayColor];
+    
+    
+   
+    
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end
