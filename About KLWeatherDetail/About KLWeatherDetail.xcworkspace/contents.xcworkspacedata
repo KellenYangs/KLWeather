@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:(&#x96ea;&#x82b1;&#xff0c;&#x70df;&#x82b1;&#xff0c;&#x706b;&#x7130;&#xff0c;&#x7231;&#x5fc3;&#x7b49;&#x6548;&#x679c;)CAEmitterLayer&#x5404;&#x79cd;&#x6548;&#x679c;"
+      name = "(&#x96ea;&#x82b1;&#xff0c;&#x70df;&#x82b1;&#xff0c;&#x706b;&#x7130;&#xff0c;&#x7231;&#x5fc3;&#x7b49;&#x6548;&#x679c;)CAEmitterLayer&#x5404;&#x79cd;&#x6548;&#x679c;">
+      <FileRef
+         location = "group:CAEmitterLayer&#x8bf4;&#x660e;.docx">
+      </FileRef>
+      <Group
+         location = "group:Dazzle"
+         name = "Dazzle">
+         <FileRef
+            location = "group:DazAppDelegate.h">
+         </FileRef>
+         <FileRef
+            location = "group:DazAppDelegate.m">
+         </FileRef>
+         <FileRef
+            location = "group:DazFire.png">
+         </FileRef>
+         <FileRef
+            location = "group:DazFireController.h">
+         </FileRef>
+         <FileRef
+            location = "group:DazFireController.m">
+         </FileRef>
+         <FileRef
+            location = "group:DazFireworksController.h">
+         </FileRef>
+         <FileRef
+            location = "group:DazFireworksController.m">
+         </FileRef>
+         <FileRef
+            location = "group:DazFlake.png">
+         </FileRef>
+         <FileRef
+            location = "group:DazFlakeIcon.png">
+         </FileRef>
+         <FileRef
+            location = "group:DazFlakeIcon@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:DazFlameIcon.png">
+         </FileRef>
+         <FileRef
+            location = "group:DazFlameIcon@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:DazHeart.png">
+         </FileRef>
+         <FileRef
+            location = "group:DazHeartIcon.png">
+         </FileRef>
+         <FileRef
+            location = "group:DazHeartIcon@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:DazInfoController.h">
+         </FileRef>
+         <FileRef
+            location = "group:DazInfoController.m">
+         </FileRef>
+         <FileRef
+            location = "group:DazRing.png">
+         </FileRef>
+         <FileRef
+            location = "group:DazSmoke.png">
+         </FileRef>
+         <FileRef
+            location = "group:DazStarIcon.png">
+         </FileRef>
+         <FileRef
+            location = "group:DazStarIcon@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:DazStarOutline.png">
+         </FileRef>
+         <FileRef
+            location = "group:DazTouchController.h">
+         </FileRef>
+         <FileRef
+            location = "group:DazTouchController.m">
+         </FileRef>
+         <FileRef
+            location = "group:DazTriangle.png">
+         </FileRef>
+         <FileRef
+            location = "group:DazViewController.h">
+         </FileRef>
+         <FileRef
+            location = "group:DazViewController.m">
+         </FileRef>
+         <FileRef
+            location = "group:Dazzle-Info.plist">
+         </FileRef>
+         <FileRef
+            location = "group:Dazzle-Prefix.pch">
+         </FileRef>
+         <Group
+            location = "group:en.lproj"
+            name = "en.lproj">
+            <FileRef
+               location = "group:InfoPlist.strings">
+            </FileRef>
+            <FileRef
+               location = "group:iPhone.storyboard">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:first.png">
+         </FileRef>
+         <FileRef
+            location = "group:first@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Icon-72.png">
+         </FileRef>
+         <FileRef
+            location = "group:Icon-Small-50.png">
+         </FileRef>
+         <FileRef
+            location = "group:Icon-Small.png">
+         </FileRef>
+         <FileRef
+            location = "group:Icon-Small@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Icon.png">
+         </FileRef>
+         <FileRef
+            location = "group:Icon@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:iTunesArtwork.png">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:Dazzle.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:Helper FIles"
+         name = "Helper FIles">
+         <Group
+            location = "group:App Icon [Squared]"
+            name = "App Icon [Squared]">
+            <FileRef
+               location = "group:Icon-72.png">
+            </FileRef>
+            <FileRef
+               location = "group:Icon-Small-50.png">
+            </FileRef>
+            <FileRef
+               location = "group:Icon-Small.png">
+            </FileRef>
+            <FileRef
+               location = "group:Icon-Small@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:Icon.png">
+            </FileRef>
+            <FileRef
+               location = "group:Icon@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:iTunesArtwork.png">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:icon.psd">
+         </FileRef>
+         <FileRef
+            location = "group:Source for the shapes.graffle">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:readme.markdown">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:&#x96ea;&#x82b1;&#x52a0;&#x8f7d;&#x52a8;&#x753b;/&#x96ea;&#x82b1;&#x52a0;&#x8f7d;&#x52a8;&#x753b;.xcodeproj">
+   </FileRef>
+</Workspace>

@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>KLWeather copy.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>KLWeather.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -13,6 +18,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>6B45C5F51C50B64B00D04D5D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6B50755A1C55EF12003E3826</key>
 		<dict>
 			<key>primary</key>
 			<true/>

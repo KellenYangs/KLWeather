@@ -63,6 +63,7 @@ typedef enum : NSUInteger {
 - (void)requestSucess:(Networking *)networking data:(id)data {
     if (networking.tag == kWeather) {
         // 请求1结果
+        NSLog(@"城市1 ： %@", data);
         CurrentWeatherData *currentData = [[CurrentWeatherData alloc] initWithDictionary:data];
         if (currentData.cod.integerValue == 200) {
             
@@ -79,6 +80,7 @@ typedef enum : NSUInteger {
     }else if (networking.tag == kDaily) {
         
         // 请求2结果
+        NSLog(@"城市2 ： %@", data);
         CurrentConditions *currentData = [[CurrentConditions alloc] initWithDictionary:data];
         if (currentData.cod.integerValue == 200) {
             

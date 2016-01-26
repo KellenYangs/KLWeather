@@ -96,14 +96,29 @@
 		6B37A0BA1C5211BF00F03505 /* ThreeLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B37A0B91C5211BF00F03505 /* ThreeLineView.m */; };
 		6B37A0BD1C5211EA00F03505 /* AnimatedLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B37A0BC1C5211EA00F03505 /* AnimatedLineView.m */; };
 		6B45C5FB1C50B64B00D04D5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B45C5FA1C50B64B00D04D5D /* main.m */; };
-		6B45C6041C50B64B00D04D5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B45C6021C50B64B00D04D5D /* Main.storyboard */; };
 		6B45C6061C50B64B00D04D5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B45C6051C50B64B00D04D5D /* Assets.xcassets */; };
-		6B45C6091C50B64B00D04D5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B45C6071C50B64B00D04D5D /* LaunchScreen.storyboard */; };
 		6B45C6171C50B72700D04D5D /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B45C6121C50B72700D04D5D /* Lato-Bold.ttf */; };
 		6B45C6181C50B72700D04D5D /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B45C6131C50B72700D04D5D /* Lato-Light.ttf */; };
 		6B45C6191C50B72700D04D5D /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B45C6141C50B72700D04D5D /* Lato-Regular.ttf */; };
 		6B45C61A1C50B72700D04D5D /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B45C6151C50B72700D04D5D /* Lato-Thin.ttf */; };
 		6B45C61B1C50B72700D04D5D /* Lato-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B45C6161C50B72700D04D5D /* Lato-ThinItalic.ttf */; };
+		6B50752A1C55C6DE003E3826 /* SearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5075291C55C6DE003E3826 /* SearchView.m */; };
+		6B50752D1C55C77A003E3826 /* LongTapAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B50752C1C55C77A003E3826 /* LongTapAnimationView.m */; };
+		6B5075301C55C82D003E3826 /* TapTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B50752F1C55C82D003E3826 /* TapTitleView.m */; };
+		6B5075331C55C8B4003E3826 /* SearchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5075321C55C8B4003E3826 /* SearchCell.m */; };
+		6B5075371C55CAFB003E3826 /* UpdatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5075361C55CAFB003E3826 /* UpdatingView.m */; };
+		6B50753A1C55CB0D003E3826 /* FadeBlackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5075391C55CB0D003E3826 /* FadeBlackView.m */; };
+		6B50753D1C55CB24003E3826 /* FailedLongPressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B50753C1C55CB24003E3826 /* FailedLongPressView.m */; };
+		6B5075401C55CB4E003E3826 /* CALayer+MaskLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B50753F1C55CB4E003E3826 /* CALayer+MaskLayer.m */; };
+		6B5075431C55CB6B003E3826 /* LineBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5075421C55CB6B003E3826 /* LineBackgroundView.m */; };
+		6B5075461C55CB89003E3826 /* PressAnimationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5075451C55CB89003E3826 /* PressAnimationButton.m */; };
+		6B5075491C55CC00003E3826 /* TWMessageBarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5075481C55CC00003E3826 /* TWMessageBarManager.m */; };
+		6B50754E1C55D1AE003E3826 /* ForecastCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B50754B1C55D1AE003E3826 /* ForecastCell.m */; };
+		6B50754F1C55D1AE003E3826 /* ForecastController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B50754D1C55D1AE003E3826 /* ForecastController.m */; };
+		6B5075551C55D1D0003E3826 /* PresentingAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5075521C55D1D0003E3826 /* PresentingAnimator.m */; };
+		6B5075561C55D1D0003E3826 /* DismissingAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5075541C55D1D0003E3826 /* DismissingAnimator.m */; };
+		6B5075591C55D1FD003E3826 /* ForecastWeatherView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5075581C55D1FD003E3826 /* ForecastWeatherView.m */; };
+		6B5075F31C55EF51003E3826 /* KLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5075F21C55EF51003E3826 /* KLViewController.m */; };
 		6BB105741C522140002CEA4B /* MaxTempView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB105731C522140002CEA4B /* MaxTempView.m */; };
 		6BB105771C522189002CEA4B /* GridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB105761C522189002CEA4B /* GridView.m */; };
 		6BB1057A1C5221CB002CEA4B /* AlphaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB105791C5221CB002CEA4B /* AlphaView.m */; };
@@ -342,15 +357,48 @@
 		6B37A0BC1C5211EA00F03505 /* AnimatedLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatedLineView.m; sourceTree = "<group>"; };
 		6B45C5F61C50B64B00D04D5D /* KLWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KLWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B45C5FA1C50B64B00D04D5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6B45C6031C50B64B00D04D5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6B45C6051C50B64B00D04D5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6B45C6081C50B64B00D04D5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B45C60A1C50B64B00D04D5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B45C6121C50B72700D04D5D /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
 		6B45C6131C50B72700D04D5D /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
 		6B45C6141C50B72700D04D5D /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
 		6B45C6151C50B72700D04D5D /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Thin.ttf"; sourceTree = "<group>"; };
 		6B45C6161C50B72700D04D5D /* Lato-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-ThinItalic.ttf"; sourceTree = "<group>"; };
+		6B5075281C55C6DE003E3826 /* SearchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchView.h; sourceTree = "<group>"; };
+		6B5075291C55C6DE003E3826 /* SearchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchView.m; sourceTree = "<group>"; };
+		6B50752B1C55C77A003E3826 /* LongTapAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LongTapAnimationView.h; sourceTree = "<group>"; };
+		6B50752C1C55C77A003E3826 /* LongTapAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LongTapAnimationView.m; sourceTree = "<group>"; };
+		6B50752E1C55C82D003E3826 /* TapTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapTitleView.h; sourceTree = "<group>"; };
+		6B50752F1C55C82D003E3826 /* TapTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapTitleView.m; sourceTree = "<group>"; };
+		6B5075311C55C8B4003E3826 /* SearchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchCell.h; sourceTree = "<group>"; };
+		6B5075321C55C8B4003E3826 /* SearchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchCell.m; sourceTree = "<group>"; };
+		6B5075351C55CAFB003E3826 /* UpdatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdatingView.h; sourceTree = "<group>"; };
+		6B5075361C55CAFB003E3826 /* UpdatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdatingView.m; sourceTree = "<group>"; };
+		6B5075381C55CB0D003E3826 /* FadeBlackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FadeBlackView.h; sourceTree = "<group>"; };
+		6B5075391C55CB0D003E3826 /* FadeBlackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FadeBlackView.m; sourceTree = "<group>"; };
+		6B50753B1C55CB24003E3826 /* FailedLongPressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FailedLongPressView.h; sourceTree = "<group>"; };
+		6B50753C1C55CB24003E3826 /* FailedLongPressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FailedLongPressView.m; sourceTree = "<group>"; };
+		6B50753E1C55CB4E003E3826 /* CALayer+MaskLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+MaskLayer.h"; sourceTree = "<group>"; };
+		6B50753F1C55CB4E003E3826 /* CALayer+MaskLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+MaskLayer.m"; sourceTree = "<group>"; };
+		6B5075411C55CB6B003E3826 /* LineBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineBackgroundView.h; sourceTree = "<group>"; };
+		6B5075421C55CB6B003E3826 /* LineBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineBackgroundView.m; sourceTree = "<group>"; };
+		6B5075441C55CB89003E3826 /* PressAnimationButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PressAnimationButton.h; sourceTree = "<group>"; };
+		6B5075451C55CB89003E3826 /* PressAnimationButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PressAnimationButton.m; sourceTree = "<group>"; };
+		6B5075471C55CC00003E3826 /* TWMessageBarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWMessageBarManager.h; sourceTree = "<group>"; };
+		6B5075481C55CC00003E3826 /* TWMessageBarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWMessageBarManager.m; sourceTree = "<group>"; };
+		6B50754A1C55D1AE003E3826 /* ForecastCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForecastCell.h; sourceTree = "<group>"; };
+		6B50754B1C55D1AE003E3826 /* ForecastCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForecastCell.m; sourceTree = "<group>"; };
+		6B50754C1C55D1AE003E3826 /* ForecastController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForecastController.h; sourceTree = "<group>"; };
+		6B50754D1C55D1AE003E3826 /* ForecastController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForecastController.m; sourceTree = "<group>"; };
+		6B5075511C55D1D0003E3826 /* PresentingAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentingAnimator.h; sourceTree = "<group>"; };
+		6B5075521C55D1D0003E3826 /* PresentingAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentingAnimator.m; sourceTree = "<group>"; };
+		6B5075531C55D1D0003E3826 /* DismissingAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DismissingAnimator.h; sourceTree = "<group>"; };
+		6B5075541C55D1D0003E3826 /* DismissingAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DismissingAnimator.m; sourceTree = "<group>"; };
+		6B5075571C55D1FD003E3826 /* ForecastWeatherView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForecastWeatherView.h; sourceTree = "<group>"; };
+		6B5075581C55D1FD003E3826 /* ForecastWeatherView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForecastWeatherView.m; sourceTree = "<group>"; };
+		6B5075F01C55EF12003E3826 /* KLWeather copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "KLWeather copy-Info.plist"; path = "/Users/bcmac3/Desktop/KLWeather/KLWeather copy-Info.plist"; sourceTree = "<absolute>"; };
+		6B5075F11C55EF51003E3826 /* KLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLViewController.h; sourceTree = "<group>"; };
+		6B5075F21C55EF51003E3826 /* KLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLViewController.m; sourceTree = "<group>"; };
 		6BB105721C522140002CEA4B /* MaxTempView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaxTempView.h; sourceTree = "<group>"; };
 		6BB105731C522140002CEA4B /* MaxTempView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaxTempView.m; sourceTree = "<group>"; };
 		6BB105751C522189002CEA4B /* GridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridView.h; sourceTree = "<group>"; };
@@ -497,8 +545,12 @@
 		6B379F7A1C51BC4A00F03505 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				6B5075501C55D1C6003E3826 /* Animation */,
+				6B5075341C55CA05003E3826 /* ForecastController */,
 				6B379F7B1C51BC4A00F03505 /* ViewController.h */,
 				6B379F7C1C51BC4A00F03505 /* ViewController.m */,
+				6B5075F11C55EF51003E3826 /* KLViewController.h */,
+				6B5075F21C55EF51003E3826 /* KLViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -539,6 +591,21 @@
 		6B379F7E1C51BC4A00F03505 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				6B5075471C55CC00003E3826 /* TWMessageBarManager.h */,
+				6B5075481C55CC00003E3826 /* TWMessageBarManager.m */,
+				6B50753B1C55CB24003E3826 /* FailedLongPressView.h */,
+				6B50753C1C55CB24003E3826 /* FailedLongPressView.m */,
+				6B5075441C55CB89003E3826 /* PressAnimationButton.h */,
+				6B5075451C55CB89003E3826 /* PressAnimationButton.m */,
+				6B5075411C55CB6B003E3826 /* LineBackgroundView.h */,
+				6B5075421C55CB6B003E3826 /* LineBackgroundView.m */,
+				6B5075381C55CB0D003E3826 /* FadeBlackView.h */,
+				6B5075391C55CB0D003E3826 /* FadeBlackView.m */,
+				6B5075351C55CAFB003E3826 /* UpdatingView.h */,
+				6B5075361C55CAFB003E3826 /* UpdatingView.m */,
+				6B50753E1C55CB4E003E3826 /* CALayer+MaskLayer.h */,
+				6B50753F1C55CB4E003E3826 /* CALayer+MaskLayer.m */,
+				6B5075271C55C6CA003E3826 /* SearchView */,
 				6B37A0A81C52050800F03505 /* WeatherView */,
 			);
 			path = Views;
@@ -981,6 +1048,7 @@
 			children = (
 				6B45C5F81C50B64B00D04D5D /* KLWeather */,
 				6B45C5F71C50B64B00D04D5D /* Products */,
+				6B5075F01C55EF12003E3826 /* KLWeather copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1008,9 +1076,7 @@
 			isa = PBXGroup;
 			children = (
 				6B45C6111C50B72700D04D5D /* Fonts */,
-				6B45C6021C50B64B00D04D5D /* Main.storyboard */,
 				6B45C6051C50B64B00D04D5D /* Assets.xcassets */,
-				6B45C6071C50B64B00D04D5D /* LaunchScreen.storyboard */,
 				6B45C60A1C50B64B00D04D5D /* Info.plist */,
 				6B45C5FA1C50B64B00D04D5D /* main.m */,
 			);
@@ -1027,6 +1093,45 @@
 				6B45C6161C50B72700D04D5D /* Lato-ThinItalic.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		6B5075271C55C6CA003E3826 /* SearchView */ = {
+			isa = PBXGroup;
+			children = (
+				6B5075281C55C6DE003E3826 /* SearchView.h */,
+				6B5075291C55C6DE003E3826 /* SearchView.m */,
+				6B5075311C55C8B4003E3826 /* SearchCell.h */,
+				6B5075321C55C8B4003E3826 /* SearchCell.m */,
+				6B50752E1C55C82D003E3826 /* TapTitleView.h */,
+				6B50752F1C55C82D003E3826 /* TapTitleView.m */,
+				6B50752B1C55C77A003E3826 /* LongTapAnimationView.h */,
+				6B50752C1C55C77A003E3826 /* LongTapAnimationView.m */,
+			);
+			name = SearchView;
+			sourceTree = "<group>";
+		};
+		6B5075341C55CA05003E3826 /* ForecastController */ = {
+			isa = PBXGroup;
+			children = (
+				6B50754A1C55D1AE003E3826 /* ForecastCell.h */,
+				6B50754B1C55D1AE003E3826 /* ForecastCell.m */,
+				6B50754C1C55D1AE003E3826 /* ForecastController.h */,
+				6B50754D1C55D1AE003E3826 /* ForecastController.m */,
+				6B5075571C55D1FD003E3826 /* ForecastWeatherView.h */,
+				6B5075581C55D1FD003E3826 /* ForecastWeatherView.m */,
+			);
+			name = ForecastController;
+			sourceTree = "<group>";
+		};
+		6B5075501C55D1C6003E3826 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				6B5075511C55D1D0003E3826 /* PresentingAnimator.h */,
+				6B5075521C55D1D0003E3826 /* PresentingAnimator.m */,
+				6B5075531C55D1D0003E3826 /* DismissingAnimator.h */,
+				6B5075541C55D1D0003E3826 /* DismissingAnimator.m */,
+			);
+			name = Animation;
 			sourceTree = "<group>";
 		};
 		6BB105711C52211F002CEA4B /* MaxTempView */ = {
@@ -1216,10 +1321,8 @@
 				6B45C6181C50B72700D04D5D /* Lato-Light.ttf in Resources */,
 				6B45C6191C50B72700D04D5D /* Lato-Regular.ttf in Resources */,
 				6B45C61A1C50B72700D04D5D /* Lato-Thin.ttf in Resources */,
-				6B45C6091C50B64B00D04D5D /* LaunchScreen.storyboard in Resources */,
 				6B45C6061C50B64B00D04D5D /* Assets.xcassets in Resources */,
 				6B45C61B1C50B72700D04D5D /* Lato-ThinItalic.ttf in Resources */,
-				6B45C6041C50B64B00D04D5D /* Main.storyboard in Resources */,
 				6B45C6171C50B72700D04D5D /* Lato-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1233,6 +1336,7 @@
 			files = (
 				6B379FB81C51D3C100F03505 /* City.m in Sources */,
 				6B379FFF1C51D7C300F03505 /* V_3_X_Networking.m in Sources */,
+				6B5075591C55D1FD003E3826 /* ForecastWeatherView.m in Sources */,
 				6B37A0901C51DDB500F03505 /* FontInfomation.m in Sources */,
 				6B37A01A1C51D7D700F03505 /* ResponseDataType.m in Sources */,
 				6BB105D61C522D45002CEA4B /* LineAnimationView.m in Sources */,
@@ -1242,6 +1346,7 @@
 				6BB105CF1C522D01002CEA4B /* LeftToRightView.m in Sources */,
 				6B37A0BD1C5211EA00F03505 /* AnimatedLineView.m in Sources */,
 				6BB105B31C522B0A002CEA4B /* SunsetView.m in Sources */,
+				6B50752A1C55C6DE003E3826 /* SearchView.m in Sources */,
 				6B379FF21C51D78200F03505 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				6B379FAC1C51D09400F03505 /* Wind.m in Sources */,
 				6B37A0A41C52037E00F03505 /* RotatedAngleView.m in Sources */,
@@ -1282,6 +1387,7 @@
 				6B37A0611C51DC8900F03505 /* POPAnimationExtras.mm in Sources */,
 				6B379FF01C51D78200F03505 /* AFImageDownloader.m in Sources */,
 				6B379F851C51BC4A00F03505 /* ViewController.m in Sources */,
+				6B5075461C55CB89003E3826 /* PressAnimationButton.m in Sources */,
 				6BB105B11C522B0A002CEA4B /* SunInfoView.m in Sources */,
 				6B37A0941C51DFDB00F03505 /* CGRectStoreValue.m in Sources */,
 				6BB105961C522A0E002CEA4B /* UIView+GlowView.m in Sources */,
@@ -1293,6 +1399,7 @@
 				6B37A0B31C520C2D00F03505 /* TitleMoveLabel.m in Sources */,
 				6B37A0011C51D7C300F03505 /* V_3_X_NetworkingReachability.m in Sources */,
 				6BB105A21C522A85002CEA4B /* TemperatureCount.m in Sources */,
+				6B50752D1C55C77A003E3826 /* LongTapAnimationView.m in Sources */,
 				6B37A0BA1C5211BF00F03505 /* ThreeLineView.m in Sources */,
 				6BB105B01C522B0A002CEA4B /* Sun.m in Sources */,
 				6B379FC51C51D6B100F03505 /* GetWeatherData.m in Sources */,
@@ -1300,14 +1407,22 @@
 				6B379F8D1C51C29600F03505 /* NSString+Color.m in Sources */,
 				6BB105D31C522D2D002CEA4B /* UpToDownView.m in Sources */,
 				6B379F841C51BC4A00F03505 /* AppDelegate.m in Sources */,
+				6B50754E1C55D1AE003E3826 /* ForecastCell.m in Sources */,
+				6B5075301C55C82D003E3826 /* TapTitleView.m in Sources */,
+				6B50754F1C55D1AE003E3826 /* ForecastController.m in Sources */,
 				6BB105B61C522B5E002CEA4B /* SunriseAndSunset.m in Sources */,
+				6B5075371C55CAFB003E3826 /* UpdatingView.m in Sources */,
 				6B37A0251C51DC7700F03505 /* GCDGroup.m in Sources */,
 				6B37A0A71C5204FC00F03505 /* HumidityCountLabel.m in Sources */,
 				6B379FF71C51D78200F03505 /* UIWebView+AFNetworking.m in Sources */,
 				6BB105BA1C522BE1002CEA4B /* ChangeColorLabel.m in Sources */,
+				6B5075331C55C8B4003E3826 /* SearchCell.m in Sources */,
 				6B37A0661C51DC8900F03505 /* POPCGUtils.mm in Sources */,
+				6B5075561C55D1D0003E3826 /* DismissingAnimator.m in Sources */,
 				6B37A0831C51DCBE00F03505 /* Easing.c in Sources */,
 				6BB105931C5229F6002CEA4B /* WeatherIconView.m in Sources */,
+				6B50753A1C55CB0D003E3826 /* FadeBlackView.m in Sources */,
+				6B50753D1C55CB24003E3826 /* FailedLongPressView.m in Sources */,
 				6BB1057F1C5226E6002CEA4B /* WindSpeedCount.m in Sources */,
 				6B379FB21C51D11100F03505 /* Weather.m in Sources */,
 				6B37A06B1C51DC8900F03505 /* POPMath.mm in Sources */,
@@ -1323,6 +1438,8 @@
 				6B379FEF1C51D78200F03505 /* AFAutoPurgingImageCache.m in Sources */,
 				6BB105C31C522C33002CEA4B /* RainView.m in Sources */,
 				6B379FD81C51D77400F03505 /* AFURLResponseSerialization.m in Sources */,
+				6B5075431C55CB6B003E3826 /* LineBackgroundView.m in Sources */,
+				6B5075401C55CB4E003E3826 /* CALayer+MaskLayer.m in Sources */,
 				6B37A0151C51D7D700F03505 /* Networking.m in Sources */,
 				6B37A0681C51DC8900F03505 /* POPDecayAnimation.mm in Sources */,
 				6B379FD51C51D77400F03505 /* AFNetworkReachabilityManager.m in Sources */,
@@ -1336,11 +1453,14 @@
 				6B379FB51C51D29C00F03505 /* CurrentWeatherData.m in Sources */,
 				6BB105A31C522A85002CEA4B /* TemperatureCountLabel.m in Sources */,
 				6BB1058A1C5227FD002CEA4B /* MaxTempCountLabel.m in Sources */,
+				6B5075551C55D1D0003E3826 /* PresentingAnimator.m in Sources */,
 				6B37A06D1C51DC8900F03505 /* POPSpringAnimation.mm in Sources */,
 				6BB105DA1C522D87002CEA4B /* ShapeWordView.m in Sources */,
 				6B379FA01C51CD2500F03505 /* Coord.m in Sources */,
 				6B45C5FB1C50B64B00D04D5D /* main.m in Sources */,
+				6B5075491C55CC00003E3826 /* TWMessageBarManager.m in Sources */,
 				6B379FF41C51D78200F03505 /* UIImageView+AFNetworking.m in Sources */,
+				6B5075F31C55EF51003E3826 /* KLViewController.m in Sources */,
 				6B379F951C51C41200F03505 /* NSString+StringHeight.m in Sources */,
 				6B37A0281C51DC7700F03505 /* GCDTimer.m in Sources */,
 				6BB105B21C522B0A002CEA4B /* SunriseView.m in Sources */,
@@ -1355,25 +1475,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		6B45C6021C50B64B00D04D5D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6B45C6031C50B64B00D04D5D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		6B45C6071C50B64B00D04D5D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6B45C6081C50B64B00D04D5D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		6B45C60B1C50B64B00D04D5D /* Debug */ = {
@@ -1465,7 +1566,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/KLWeather/Expand(扩展)/Macros/PrefixHeader.pch";
 				INFOPLIST_FILE = KLWeather/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = KellenYangs.KLWeather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1479,7 +1580,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/KLWeather/Expand(扩展)/Macros/PrefixHeader.pch";
 				INFOPLIST_FILE = KLWeather/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = KellenYangs.KLWeather;
 				PRODUCT_NAME = "$(TARGET_NAME)";

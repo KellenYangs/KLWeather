@@ -45,7 +45,7 @@
     
     // 初始化第一个叶子
     self.oneLine        = [[AnimatedLineView alloc] initWithFrame:CGRectMake(0, 0, width, self.height)];
-    self.oneLine.backgroundColor = [UIColor cyanColor];
+//    self.oneLine.backgroundColor = [UIColor cyanColor];
     self.oneLine.image  = image;
     self.oneLine.center = self.middlePoint;
     [self addSubview:self.oneLine];

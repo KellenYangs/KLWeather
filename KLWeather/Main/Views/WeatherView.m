@@ -86,7 +86,6 @@
         [self.tableView addSubview:self.weatherIconView];
         
     } else {
-        
         // 显示控件
         self.humidityView = [[HumidityView alloc] initWithFrame:CGRectMake(0, ScreenHeight - ScreenWidth, ScreenWidth / 2.f, ScreenWidth / 2.f)];
         [self.humidityView buildView];
